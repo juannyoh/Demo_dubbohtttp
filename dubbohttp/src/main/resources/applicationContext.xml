@@ -24,6 +24,8 @@
           http://www.springframework.org/schema/util/spring-util.xsd">
        
 	<import resource="dubbo_provider.xml"/>
+	
+	<context:property-placeholder location="classpath:config.properties"/>
        
 	<context:component-scan base-package="com.dituhui" />
        
